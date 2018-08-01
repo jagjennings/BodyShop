@@ -4,7 +4,7 @@ def backgroundImage():
     garageBackground = loadImage("garageBackground.jpeg")
 
 def backgroundTextAndBoxes():
-    #garageBackground = loadImage("garageBackground.jpeg")
+    garageBackground = loadImage("garageBackground.jpeg")
     image(garageBackground, 0, 0, 1000, 800)
     font = loadFont("Ravie-58.vlw")
     fill(255)
